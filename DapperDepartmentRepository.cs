@@ -23,6 +23,21 @@ namespace BestBuyBestPractices
             _connection.Execute("INSERT INTO DEPARTMENTS (Name) VALUES (@departmentName);",
              new { departmentName = newDepartmentName });
         }
+
+
+
+
+
+
+        public void CreateProduct(string? productName, double price, int catID)
+        {
+            throw new NotImplementedException();
+        }
+
+        public object GetAllProducts()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
